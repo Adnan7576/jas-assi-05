@@ -6,8 +6,57 @@
   <link href="./src/output.css" rel="stylesheet">
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+      <!-- Header -->
+    <header class="shadow-md bg-white sticky top-0 z-50">
+      <nav
+        class="container mx-auto px-6 py-3 flex justify-between items-center"
+      >
+        <div class="flex items-center gap-3">
+          <img
+            src="assets/logo.png"
+            alt="Logo"
+            class="w-12 h-12 object-contain"
+          />
+          <div>
+            <h1
+              class="font-sec text-xl font-extrabold text-gray-800 leading-tight"
+            >
+              Emergency
+            </h1>
+            <h1 class="text-xl font-extrabold text-gray-800 -mt-1">Service</h1>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <button
+            class="flex items-center gap-2 bg-green-100 btn shadow hover:shadow-lg transition rounded-full"
+          >
+            <span id="heart-count" class="text-gray-700 font-semibold">0</span>
+            <img src="assets/heart.png" alt="Heart" class="w-6 h-6" />
+          </button>
+
+          <button
+            class="flex items-center gap-2 bg-green-100 btn shadow hover:shadow-lg transition rounded-full"
+          >
+            <span id="coin-count" class="text-gray-700 font-semibold">100</span>
+            <img src="assets/coin.png" alt="Coin" class="w-6 h-6" />
+          </button>
+
+
+          <button
+            class="text-white font-medium text-lg bg-green-600 btn rounded-full"
+          >
+            <span id="copy-count" class="font-bold">0</span> Copy
+          </button>
+        </div>
+      </nav>
+    </header>
+
+
+    <!-- Headers ends -->
+
+
+
+    
 </body>
 </html>
